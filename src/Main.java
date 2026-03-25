@@ -2,7 +2,7 @@
 
 public class Main {
     public static void main(String[] args) {
-
+        //Added scoring logic
         Scanner sc = new Scanner(System.in);
         int score = 0;
 
