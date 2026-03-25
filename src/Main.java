@@ -22,6 +22,6 @@ public class Main {
             score++;
         }
 
-        System.out.println("Your score: " + score);
+        System.out.println("Final score: " + score);
     }
 }
