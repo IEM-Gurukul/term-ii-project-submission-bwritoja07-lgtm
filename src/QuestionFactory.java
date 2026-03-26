@@ -1,4 +1,4 @@
- class QuestionFactory {
+class QuestionFactory {
     public static Question getQuestion(String type) {
         if (type.equalsIgnoreCase("MCQ")) {
             return new MCQQuestion();
@@ -7,7 +7,7 @@
             return new TrueFalseQuestion();
         } 
         else {
-            return null;
+            throw new IllegalArgumentException("Invalid question type");
         }
     }
 }
